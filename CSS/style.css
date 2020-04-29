@@ -1,0 +1,480 @@
+/*---WOODER WEBSITE---From-12/3/2018----To----29/3/2018--*/		/*Ahmed Vector...01212895904*/
+/*----------frame work----------*/
+body{
+	font-family: tahoma;
+	height: 3000px
+}
+h1,h2,h3,h4,h5,li,a,*{
+	margin: 0;
+	padding: 0
+}
+
+.container{
+	width: 1200px;
+	margin: auto;
+}
+
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.main-color{
+	color: #bea67c
+}
+.center{
+	text-align: center
+}
+.pointer{
+	cursor: pointer;
+}
+/*----------frame work----------*/
+												/*------------start header------------*/
+.menu, .menu i, .menu h4, .logo, .links ul li, .furniture{
+	float: left;
+}
+
+.navigation-bar .menu{
+	padding: 20px;
+	width: 500px;
+}
+
+.navigation-bar .menu i{
+	font-size: 30px;
+	width: 40px;
+}
+
+.navigation-bar .menu h4{
+	width: 50px;
+	font-weight: normal;
+	margin-top: 5px;
+	color: #b9b9b8;
+}
+
+.navigation-bar .logo{
+	color: #ffffff;
+	font-size: 24px;
+	width: 300px;
+	margin-top: 12px;
+	position: relative;
+	letter-spacing: 10px
+}
+
+.navigation-bar .logo::before{
+	content: "";
+	position: absolute;
+	width: 50px;
+	height: 4px;
+	top: 19px;
+	left: 55px;
+	background-color: #e0bd78
+}
+
+header{
+	background: url(../images/WOODER-BackGround_02.png);
+	height: 675px;
+	position: relative;
+    overflow: hidden;
+}
+
+.navigation-bar .links ul li{
+	width: 150px;
+	list-style: none;
+	text-align: center;
+	margin-top: 20px
+}
+
+.navigation-bar .links ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #b9b9b8;
+	font-weight: bold;
+}
+
+.head h1{
+	font-size: 80px;
+	width: 1000px;
+	margin: 200px 0 40px 165px;
+}
+
+.head button{
+	background: none;
+	color: #ffffff;
+	width: 300px;
+	height: 50px;
+	border-color: #fff;
+	font-size: 23px;
+	border-radius: 9px;
+	//display: none
+}
+
+.head i{
+	color: #fff;
+	font-size: 50px;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	display: block;
+	margin: 100px auto 0 auto;
+}										/*------------End header------------*/
+											/*------------Start features--------*/
+.features{
+	height: 675px;
+}
+
+.features .furniture{
+	width: 380px;
+	margin: 250px 0 0 160px;
+	font-family: arial
+}
+
+.h2-beauty{
+	margin-bottom: 30px;
+	color: #0a0a0a;
+	font-size: 30px;
+	position: relative
+}
+
+.p-beauty{
+	line-height: 1.4;
+	margin-bottom: 30px;
+	color: #464646;
+	position: relative
+}
+
+.h5-beauty{
+	color: #0a0a0a;
+	font-size: 17px;
+	position: relative
+}
+
+.features .furniture-image,
+.decor-image{
+	float: right;
+	margin-top: 120px;
+	box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.6);
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out
+}
+
+.h2-beauty::before, .p-beauty::before, .h5-beauty::before, .h5-beauty::after{
+	content: "";
+	position: absolute;
+	background-color: #bea67c
+}
+
+.h2-beauty::before{
+	top: 15px;
+	left: -160px;
+	width: 130px;
+	height: 2px;
+	background-color: #0a0a0a
+}
+
+.p-beauty::before{
+	top: 7px;
+	left: -75px;
+	width: 45px;
+	height: 4px;
+}
+
+.h5-beauty::before{
+	top: 22px;
+	left: 0px;
+	width: 45px;
+	height: 3px;
+}
+
+.h5-beauty::after{
+	top: 10px;
+	left: 120px;
+	width: 70px;
+	height: 2px;
+}
+
+.features .furniture-image:hover,
+.decor-image:hover{
+	box-shadow: none;
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
+}
+											/*------------End features--------*/
+											/*------------Start Decor--------*/
+.decor{
+	height: 675px;
+}
+
+.decor .decor-info{
+	float: right;
+	width: 380px;
+	font-family: arial;
+	margin: 220px 0 0 -160px;
+}
+
+.decor .decor-image{
+	float: left;
+}
+											/*------------End Decor--------*/
+											/*------------Start Quality--------*/
+.quality{
+	height: 675px;
+	font-family: arial;
+}
+
+.quality h1{
+	color: #0a0a0a;
+	font-size: 40px;
+	position: relative
+}
+
+.quality p{
+	color: #464646;
+	line-height: 1.4;
+	font-size: 17px;
+	margin: 50px 0 100px 0
+}
+
+.quality .quality-box{
+	float: left;
+	overflow: hidden;
+	width: 210px;
+	height: 200px;
+	border-radius: 50%;
+	margin-left: 140px;
+	position: relative
+}
+
+.quality .quality-box img{
+	margin-left: -50px
+}
+
+.quality-info h4{
+	float: left;
+	width: 200px;
+	margin-left: 160px;
+	margin-top: 40px;
+	color: #323232;
+	position: relative;
+}
+
+.quality .quality-box .overlay{
+	background-color: rgba(185, 166, 132, 0.0);
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.quality .quality-box:hover .overlay{
+	background-color: rgba(185, 166, 132, 0.7);
+}
+
+.quality .quality-box .overlay i{
+	font-size: 40px;
+	background-color: transparent;
+	color: transparent;
+	border-radius: 50%;
+	width: 65px;
+	height: 65px;
+	line-height: 65px;
+	margin: 70px 0 0 70px;
+	text-align: center;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+.quality .quality-box:hover .overlay i{
+	background-color: #fff;
+	color: #bea67c;
+}
+
+.quality h1::before{
+	content: "";
+	position: absolute;
+	top: 70;
+	left: 550;
+	width: 70px;
+	height: 4px;
+	background-color: #bea67c
+}
+
+.quality-info h4::before{
+	content: "";
+	position: absolute;
+	width: 55px;
+	height: 4px;
+	top: -15;
+	left: 50;
+	background-color: #bea67c
+}
+											/*------------End Quality--------*/
+											/*------------Start Design--------*/
+.design{
+	background: url(../images/background-2.jpg);
+	height: 675;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	position: relative
+}
+
+.design .overlay{
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.design .border-line{
+	border: 2px solid #bea67c;
+	width: 1200px;
+	height: 530px;
+	margin: 77.5px auto
+}
+
+.design .border-line .inside-border{
+	font-family: arial;
+	margin: 100px 0 0 300px;
+}
+
+.design .border-line .inside-border h1{
+	font-size: 40px;
+	font-weight: 500;
+	position: relative
+}
+
+.design .border-line .inside-border p{
+	margin: 50px 0;
+	line-height: 1.4;
+	color: #eaeaea;
+	font-family: tahoma;
+	position: relative;
+	color: #ddd;
+}
+
+.design .border-line .inside-border button{
+	background: none;
+	width: 260px;
+	height: 50px;
+	color: #eaeaea;
+	border-color: #ffffff
+}
+
+.design .border-line .inside-border h1::before{
+	content: "";
+	position: absolute;
+	width: 150px;
+	height: 3px;
+	background-color: #ffffff;
+	top: 25px;
+	left: -175px;
+}
+
+.design .border-line .inside-border p::before{
+	content: "";
+	position: absolute;
+	width: 50px;
+	height: 2px;
+	background-color: #bea67c;
+	top: 10px;
+	left: -75px;
+}
+											/*------------End Design--------*/
+											/*------------Start About_us--------*/
+.about-us{
+    height: 675px;
+    
+}
+
+.about-us .our-image{
+    margin: 130px 0 0 50px;
+    width: 619px;
+    float: left;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.about-us .our-info{
+    float: right;
+    width: 420px;
+    margin: 250px 0 0 0px;
+    font-family: arial;
+    color: #0a0a0a;
+    position: relative
+}
+
+.about-us .our-info p{
+    color: #464646;
+    margin: 30px 0;
+    line-height: 1.4;    
+}
+
+.about-us .our-image:hover{
+     -webkit-transform: scale(1.1) rotate(5deg);
+    -moz-transform: scale(1.1) rotate(5deg);
+    -o-transform: scale(1.1) rotate(5deg);
+    transform: scale(1.1) rotate(5deg);
+}
+											/*------------End About_us---------*/
+											/*------------Start Footer---------*/
+footer{
+    background: url(../images/WOODER-BackGround_02.png);
+    background-size: cover;
+    height: 60px;
+    position: relative;
+    color: #fff
+}
+
+footer .footer-things{
+    float: left;
+    width: 33.333%;
+}
+
+footer .footer-things h6{
+    margin: 20px 0 0 100px;
+    font-size: 16px;
+    color: #7d7d7d
+}
+
+footer .footer-things h1{
+    margin: 10px 0 0 100px;
+    position: relative;
+    transition: all 0.6s ease-in-out;
+}
+
+footer .footer-things h3{
+    margin: 20px 0 0 100px;
+    color: #555555
+}
+
+footer .footer-things h3 span{
+    margin-left: 15px;
+    color: #7d7d7d
+}
+
+footer .footer-things h1:hover{
+    letter-spacing: 10px
+}
+
+footer .footer-things h1::before{
+    content: "";
+    position: absolute;
+	width: 48px;
+	height: 4px;
+	top: 17px;
+	left: 50px;
+	background-color: #e0bd78;
+}
+
+h1,p,h2,h3,h4{
+    font-family: 'Oxygen'
+}
+											/*------------End Footer---------*/
